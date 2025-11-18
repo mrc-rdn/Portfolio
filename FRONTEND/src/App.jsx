@@ -1,17 +1,29 @@
 import React from 'react'
-import Header from './components/Header'
-import Hero from './components/HeroSection'
+import Navigation from './components/Navigation'
+import HeroSection from './components/HeroSection'
+
+
 
 export default function App() {
   return (
-    <div className='w-full h-screen'>
-      <div className='h-1/6 w-full bg-white flex items-center'>
-        <Header logo="MRC"/>
-      </div>
-      <div className='h-5/6 w-full grid place-items-center '>
-        <Hero />
-      </div>
+    <div className="w-full h-screen ">
+      <section id='home'>
+        <Navigation />
+        <HeroSection />
+      </section>
+      
+      <section id="projects" className="min-h-screen text-white">
+        <h2 className="text-4xl font-bold mb-6">Projects</h2>
+        
+      </section>
+      <section id="about" className="min-h-screen text-white">
+        <h2 className="text-4xl font-bold mb-6">About</h2>
+        
+      </section>
+      <section id="contact" className="min-h-screen text-white">
+        <h2 className="text-4xl font-bold mb-6">Contact</h2>
+      </section>
       
     </div>
-  )
+  );
 }
