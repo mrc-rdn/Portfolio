@@ -33,7 +33,7 @@ export default function Contact() {
   };
 
   return (
-    <section className="lg:w-5/12 w-full flex justify-center p-10">
+    <section className="lg:w-6/12 w-full flex justify-center p-10">
       <div className="w-full max-w-2xl p-10 rounded-2xl shadow-2xl border border-gray-800">
         
         <h2 className="text-4xl font-bold text-white mb-6 text-center">

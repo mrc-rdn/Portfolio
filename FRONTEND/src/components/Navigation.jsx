@@ -127,9 +127,9 @@ export default function Navigation() {
           </p>
 
           <p className="text-base sm:text-xl md:text-2xl text-gray-400 p-2 sm:p-4 inline-block rounded-md">
-            Hi, i'm <span className='text-white'>John Marco Ardina </span>
-            an <span className='text-lime-500'>Full Stack developer</span> dedicated to helping teams build reliable,
-            effective solutions with passion and excellence
+            Hi, i'm <span className='text-white'>John Marco Ardina, </span>
+            a <span className='text-lime-500'>Full Stack Developer</span> dedicated to helping teams build reliable and
+            effective solutions with passion and excellence.
           </p>
 
           <div className='flex gap-3 ml-2 sm:ml-3 '>

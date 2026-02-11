@@ -13,7 +13,7 @@ export default function Project({project}) {
       
       <div className='flex m-3 xl:m-0 xl:mt-10  md:gap-10 '
       onClick={()=>{setIsModal(true)}}>
-        <div className='p-6 w-11/12 md:w-170 md:h-145 border border-gray-400 rounded-3xl transition-transform duration-300 hover:scale-105 hover:border-gray-100  backdrop-blur-md'>
+        <div className='p-6 w-full md:w-170 md:h-145 border border-gray-400 rounded-3xl transition-transform duration-300 hover:scale-105 hover:border-gray-100  backdrop-blur-md'>
           <h1 className='text-lg md:text-xl font-semibold'>{project.title}</h1>
           <div className='w-full py-5'>
             <img src={project.img[0]} alt="" className='rounded-2xl' />

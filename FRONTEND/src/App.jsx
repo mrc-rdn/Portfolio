@@ -9,7 +9,7 @@ import Connect from './components/contact/Connect.jsx';
 
 export default function App() {
   return (
-    <div className="w-full h-screen ">
+    <div className="w-full h-screen">
       <section id='home' className='w-full'>
         <Navigation />
         
@@ -20,12 +20,13 @@ export default function App() {
         <TechStackCoursel />
       </section>
       
-      <section id="projects" className="lg:h-370 h-500 text-white p-10 pt-15 flex flex-col">
-        <h2 className="text-4xl font-bold mb-6 text-center">Projects And Experience</h2>
+      <section id="projects" className="xl:h-370 lg:h-500 md:h-500 sm:h-460 h-500 text-white p-10 pt-15 flex flex-col">
+        <h2 className="text-4xl font-bold mb-6 text-center">Projects and Experiences</h2>
         <ProjectPage />
       </section>
-      <section id="contact" className="w-full min-h-screen text-white">
-        <div className=' lg:flex flex-col lg:flex-row w-full gap-20 items-center justify-center'>
+
+      <section id="contact" className="w-full max-h-full text-white " >
+        <div className=' lg:flex flex-col lg:flex-row w-full gap-10 items-center justify-center'>
           <Contact />
           <Connect />
 
