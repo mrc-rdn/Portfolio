@@ -32,7 +32,7 @@ export default function Hero() {
           </p>
           
           <p className=" text-2xl text-gray-400 p-4 inline-block rounded-md">
-            Hi, i'm  <span className='text-white'>John Marco Ardina </span> an Full Stack developer dedicated to helping teams build reliable, effective solutions with passion and excellence.
+            Hi, I'm  <span className='text-white'>John Marco Ardina, </span> an Full Stack Developer dedicated to helping teams build reliable, effective solutions with passion and excellence.
             
           </p>
            

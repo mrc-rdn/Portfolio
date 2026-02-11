@@ -15,6 +15,7 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
 
 import { FaCss3 } from "react-icons/fa6";
+import { FaGitAlt } from "react-icons/fa";
 
 
 
@@ -38,7 +39,7 @@ export default function TechStackCoursel() {
                 <div className="card"><FaHtml5 /></div>
                 <div className="card"><FaCss3 /></div>
                 <div className="card"><FaBootstrap /></div>
-
+                 <div className="card"><FaGitAlt /></div>
             </div>
             <div aria-hidden className="group flex item-center justify-center">
                 <div className="card "><BiLogoPostgresql /></div>
@@ -50,6 +51,7 @@ export default function TechStackCoursel() {
                 <div className="card"><FaHtml5 /></div>
                 <div className="card"><FaCss3 /></div>
                 <div className="card"><FaBootstrap /></div>
+                <div className="card"><FaGitAlt /></div>
             </div>
         </div>
 

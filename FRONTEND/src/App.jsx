@@ -21,7 +21,7 @@ export default function App() {
       </section>
       
       <section id="projects" className="lg:h-370 h-500 text-white p-10 pt-15 flex flex-col">
-        <h2 className="text-4xl font-bold mb-6 text-center">Projects & Expreience</h2>
+        <h2 className="text-4xl font-bold mb-6 text-center">Projects And Experience</h2>
         <ProjectPage />
       </section>
       <section id="contact" className="w-full min-h-screen text-white">
