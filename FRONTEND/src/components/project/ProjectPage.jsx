@@ -22,18 +22,19 @@ export default function ProjectPage() {
         },
         {title:'AWS Deployment', 
         description:'Built a cloud-based system where the backend runs on Amazon EC2, application data is securely stored in Amazon RDS, and images and files are managed using Amazon S3 for scalable storage.', 
-        img:['/images/keeper/1.png','/images/keeper/2.png','/images/keeper/3.png'],
-        technologies :['AWS','RDS','EC2','S3 Bucket','React','Express', 'postgres', 'Node'],
+        img:['/images/keeper/1.png','/images/keeper/2.png','/images/keeper/3.png','/images/keeper/4.png','/images/keeper/5.png','/images/keeper/6.png'],
+        technologies :['AWS','RDS','EC2','React','Express', 'Postgres', 'Node'],
         features:[
-            'Successfully deployed a full-stack Note-Taking application to AWS. Engineered a robust backend on EC2, implemented persistent data storage via RDS, and optimized asset delivery using S3 Buckets. This setup ensures the application is production-ready, scalable, and follows cloud security best practices.',
-            
-            'Create: A top input area with "Title" and "Take a note..." fields, triggered by an "Add" button.',
-            'Read: Notes displayed as cards with a title and content body.',
-            'Update (Status): A "Completed" button that applies a strike-through effect to the text (as seen on the "Feb 10, 2026" note).',
-            'Edit Trigger: An edit icon (pencil) in the top-right corner of each note card, which is the perfect hook for your modal.',
+            'Cloud Deployment – Hosted on AWS EC2 with Nginx and PM2 for reliable production uptime.',
+            'Real-World Ready – Combines full-stack technologies and cloud deployment for a professional application.',
+            'User Authentication & Security – Users can register and log in securely using JWT for protected sessions.',
+            'Task Management – Users can create, read, update, and delete their tasks easily.',
+            'Interactive Frontend – Built with React, the UI is responsive and updates in real-time.',
+            'Backend API – Node.js and Express handle requests and protect routes for authenticated users.',
+            'Database Integration – PostgreSQL on AWS RDS securely stores users and tasks.',
             
             ],
-        link: 'http://aws-keeper-frontend.s3-website-ap-southeast-1.amazonaws.com',
+        link: 'http://3.1.81.248',
         is_status: true,
         duration: '1 week'
         },
