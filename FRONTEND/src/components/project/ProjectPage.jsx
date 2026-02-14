@@ -20,7 +20,7 @@ export default function ProjectPage() {
         duration: 'Sept 2025 - On Going'
         
         },
-        {title:'AWS Deployment', 
+        {title:'Keeper (AWS Deployment)', 
         description:'Built a cloud-based system where the backend runs on Amazon EC2, application data is securely stored in Amazon RDS, and images and files are managed using Amazon S3 for scalable storage.', 
         img:['/images/keeper/1.png','/images/keeper/2.png','/images/keeper/3.png','/images/keeper/4.png','/images/keeper/5.png','/images/keeper/6.png'],
         technologies :['AWS','RDS','EC2','React','Express', 'Postgres', 'Node'],
